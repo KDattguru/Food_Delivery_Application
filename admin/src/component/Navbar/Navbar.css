@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo{
+    width: max(5%,80px);
+    transition: 0.2s ease-in-out;
+}
+.navbar .logo:hover{
+    box-shadow: 0 0 5px;
+    border-radius: 50%;
+    transform: scale(1);
+}
+.navbar .profile{
+    width: 80px;  
+}
+
+.navbar p{
+    font-size: 40px;
+    font-weight: 500;
+    transition: 0.2 ease-in-out;
+    padding: 8px;
+}
+
+.navbar p:hover{
+    text-shadow: 0 0 3px grey;
+    border:2px solid tomato;
+    transform: scale(1.02);
+    border-radius: 10px 40px;
+    box-shadow: 0 0 4px rgb(150, 148, 148);
+}
